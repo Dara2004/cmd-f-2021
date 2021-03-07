@@ -40,3 +40,29 @@
     transform: rotate(360deg);
   }
 }
+
+.buttonRed {
+    background-color: #A5331D;
+    color: white;
+    width: 127px;
+    height: 56px;
+    border-radius: 10px;
+    padding: 0;
+    border: none;
+    margin-top: 10%;
+}
+
+.buttonWhite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+  color: #44332F;
+  width: 124px;
+  height: 37px;
+  border-radius: 10px;
+  border: 1px solid #44332F;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 100px;
+}

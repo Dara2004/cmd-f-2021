@@ -12,7 +12,8 @@ export const Header = () => {
                 <Link to="/menu"><div className="menuItem">menu</div></Link>
                 <Link to="/locations"><div className="menuItem">locations</div></Link>
                 <Link to="/about"><div className="menuItem">about</div></Link>
-                <Link to="/landing"><div className="menuItem">login</div></Link>
+                <Link to="/login"><div className="menuItem">login</div></Link>
+                {/* <Link to="/landing"><div className="menuItem">login</div></Link> */}
             </div>
             <hr style={{top: "160px", width: "971px"}}></hr>
         </React.Fragment>

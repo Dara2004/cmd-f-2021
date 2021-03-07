@@ -3,7 +3,7 @@ import errorImg from "../assets/errorImg.png"
 
 export const Landing = () => {
     return (
-        <div className="landing">
+        <div className="home">
             <div className="homeLeft">
                 <img src={errorImg} alt="errImg"/>
             </div>
