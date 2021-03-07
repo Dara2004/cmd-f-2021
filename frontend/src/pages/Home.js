@@ -6,11 +6,11 @@ import pizza1 from "../assets/pizza1.png"
 export const Home = () => {
     return (
         <React.Fragment>
-            <div>
+            <div className="">
                 <img src={pizza1} alt="pizza1"/>
             </div>
 
-            <div>
+            <div className="">
                 <h2>Mediterannean Pizza</h2>
                 <PriceIcon/>
                 <OrderNowBtn/>
