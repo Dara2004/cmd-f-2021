@@ -41,9 +41,9 @@ export const Login = () => {
                 
                 <h3 style={{marginTop: "10%"}}>safe contact number</h3>
                 <div className="safeContact">
-                    <input ref={phone1} type="text" name="phone1"/>-
-                    <input ref={phone2} type="text" name="phone2"/>-
-                    <input ref={phone3} type="text" name="phone3"/>-
+                    <input ref={phone1} type="text" name="phone1"/>-&nbsp;&nbsp;
+                    <input ref={phone2} type="text" name="phone2"/>-&nbsp;&nbsp;
+                    <input ref={phone3} type="text" name="phone3"/>
                 </div>
 
                 <ButtonRed value="Done" onClick={onDoneClicked}/>
