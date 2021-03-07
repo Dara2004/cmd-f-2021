@@ -7,6 +7,7 @@ import {
 import { Header } from './common/Header';
 import { Home } from './pages/Home';
 import { Landing } from './pages/Landing';
+import { Login } from './pages/Login';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <Switch>
           <Route path="/landing">
             <Landing />
+          </Route>
+          <Route path="/login">
+            <Login />
           </Route>
           <Route path="/">
             <Home />

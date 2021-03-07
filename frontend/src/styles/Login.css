@@ -1,0 +1,33 @@
+.inputGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.accessKey input {
+    width: 37px;
+    height: 54px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+.safeContact input {
+    width: 80px;
+    height: 54px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+.loginRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
