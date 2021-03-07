@@ -1,0 +1,18 @@
+.appTitle {
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+    color: #44332F;
+    margin-right: 20%;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem {
+    padding-left: 10px;
+    padding-right: 10px;
+}
